@@ -1,0 +1,104 @@
+/*
+ * Basic positioning styles shared by primary and secondary tabs.
+ */
+ul.primary,
+ul.secondary {
+  overflow: hidden;
+  *zoom: 1;
+  border-bottom: 1px solid #bbbbbb;
+  list-style: none;
+  margin: 1em 0 1.5em;
+  padding: 0 2px;
+  white-space: nowrap;
+  clear: both;
+  li {
+    float: left;
+    margin: 0.5em 3px 0 !important;
+  }
+  a {
+    border: 1px solid #e9e9e9 !important;
+    border-right: 0;
+    border-bottom: 0;
+    display: block;
+    line-height: 1.5em;
+    text-decoration: none;
+    margin-right: 0 !important;
+    color: #333 !important;
+  }
+}
+
+/*
+ * Primary tabs
+ */
+ul.primary li {
+  text-shadow: white 1px 1px 0;
+  border: 1px solid #bbbbbb;
+  border-bottom: 0;
+  margin: 0.5em 0 0 3px;
+  @include border-top-radius(3px);
+  &.active {
+    border-bottom: 1px solid white;
+    margin-bottom: -1px;
+  }
+}
+
+ul.primary a:link,
+ul.primary a:visited {
+  color: #333;
+  background-color: #dedede;
+  letter-spacing: 1px;
+  padding: 0 1em;
+  text-align: center;
+  @include border-top-radius(3px);
+  @include transition(background-color 0.4s);
+}
+
+ul.primary a:hover,
+ul.primary a:focus {
+  background-color: #e9e9e9;
+  border-color: #f2f2f2;
+  text-decoration:none !important;
+}
+
+ul.primary a.active {
+  background-color: transparent !important;
+  *zoom: 1;
+  border-color: #fff;
+  border-bottom: none;
+  @include background-image(linear-gradient(rgba(#e9e9e9, 1), rgba(233, 233, 233, 0)));
+}
+
+/*
+ * Secondary tabs
+ */
+
+ul.secondary {
+  font-size: .9em;
+  margin-top: -1.5em; /* Collapse bottom margin of ul.primary. */
+  padding-bottom: .5em;
+}
+
+ul.secondary a:link,
+ul.secondary a:visited {
+  text-shadow: white 1px 1px 0;
+  background-color: #f2f2f2;
+  color: #666;
+  padding: 0 .5em;
+  @include border-radius(0.75em);
+  @include transition(background-color 0.4s);
+}
+
+ul.secondary a:hover,
+ul.secondary a:focus {
+  background-color: #dedede;
+  border-color: #999;
+  color: #333;
+}
+
+ul.secondary a.active,
+ul.secondary a:active {
+  text-shadow: #333333 1px 1px 0;
+  background-color: #666;
+  border-color: #000;
+  color: #fff;
+}
