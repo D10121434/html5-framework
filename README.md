@@ -1,4 +1,4 @@
 # HTML5 & Sass framework.
-__Custom framework based on Boilerplate framework__
+__Custom framework__
 
-A basic framework based on Boilerplate with HTML5 support and integrate Sass files for new web projects.
+A custom framework I use to kickstart my own projects.
