@@ -5,8 +5,8 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-@mixin open-sans ($weight: 300, $style: normal) {
-  font-family: 'Open Sans', sans-serif;
+@mixin font-default ($weight: 400, $style: normal) {
+  font-family: $font-default;
   font-weight: $weight;
   font-style: $style;
   @include font-smoothing;

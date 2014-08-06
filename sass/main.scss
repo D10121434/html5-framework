@@ -11,8 +11,9 @@
 
 // Core Setup Sass Files
 @import 'core/normalize';
-@import 'core/tabs';
+@import 'core/grid';
 @import 'core/global';
+@import 'core/typography';
 
 // Layout Sass Files
 @import 'layout/header';
@@ -20,6 +21,3 @@
 
 // Pages Sass Files
 @import 'pages/front';
-
-// Grid
-@import 'core/grid';

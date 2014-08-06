@@ -20,7 +20,7 @@ html {
 }
 
 body {
-	@include open-sans();
+	@include font-default();
   font-size: 1.5rem;
   color: $light-grey;
 }
@@ -30,12 +30,4 @@ img {
 	height: auto;
 	display: block;
 	margin: 0 auto;
-}
-
-.clear {
-	@include clearfix();
-}
-
-p {
-	line-height: 2.1rem;
 }
