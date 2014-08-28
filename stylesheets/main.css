@@ -1339,76 +1339,76 @@ td, th { padding: 0; }
 .row { margin: 0 auto 0 auto; max-width: 1200px; width: 100%; position: relative; *zoom: 1; }
 .row:after { content: ''; display: table; line-height: 0; clear: both; }
 
-.column-1 { width: 8.33333%; min-height: 1px; position: relative; margin: 0; padding: 0 10px; padding: 0; *zoom: 1; }
+.column-1 { width: 100%; float: none; margin: 0; *zoom: 1; }
 .column-1:after { content: ''; display: table; line-height: 0; clear: both; }
-@media (max-width: 767px) { .column-1 { width: 100%; float: none; margin: 0; *zoom: 1; }
+@media (min-width: 480px) { .column-1 { width: 8.33333%; min-height: 1px; position: relative; margin: 0; padding: 0 10px; padding: 0; *zoom: 1; }
   .column-1:after { content: ''; display: table; line-height: 0; clear: both; } }
 
 .push-1 { margin-left: 8.33333%; }
 
-.column-2 { width: 16.66667%; min-height: 1px; position: relative; margin: 0; padding: 0 10px; float: left; }
-@media (max-width: 767px) { .column-2 { width: 100%; float: none; margin: 0; *zoom: 1; }
-  .column-2:after { content: ''; display: table; line-height: 0; clear: both; } }
+.column-2 { width: 100%; float: none; margin: 0; *zoom: 1; }
+.column-2:after { content: ''; display: table; line-height: 0; clear: both; }
+@media (min-width: 480px) { .column-2 { width: 16.66667%; min-height: 1px; position: relative; margin: 0; padding: 0 10px; float: left; } }
 
 .push-2 { margin-left: 16.66667%; }
 
-.column-3 { width: 25%; min-height: 1px; position: relative; margin: 0; padding: 0 10px; float: left; }
-@media (max-width: 767px) { .column-3 { width: 100%; float: none; margin: 0; *zoom: 1; }
-  .column-3:after { content: ''; display: table; line-height: 0; clear: both; } }
+.column-3 { width: 100%; float: none; margin: 0; *zoom: 1; }
+.column-3:after { content: ''; display: table; line-height: 0; clear: both; }
+@media (min-width: 480px) { .column-3 { width: 25%; min-height: 1px; position: relative; margin: 0; padding: 0 10px; float: left; } }
 
 .push-3 { margin-left: 25%; }
 
-.column-4 { width: 33.33333%; min-height: 1px; position: relative; margin: 0; padding: 0 10px; float: left; }
-@media (max-width: 767px) { .column-4 { width: 100%; float: none; margin: 0; *zoom: 1; }
-  .column-4:after { content: ''; display: table; line-height: 0; clear: both; } }
+.column-4 { width: 100%; float: none; margin: 0; *zoom: 1; }
+.column-4:after { content: ''; display: table; line-height: 0; clear: both; }
+@media (min-width: 480px) { .column-4 { width: 33.33333%; min-height: 1px; position: relative; margin: 0; padding: 0 10px; float: left; } }
 
 .push-4 { margin-left: 33.33333%; }
 
-.column-5 { width: 41.66667%; min-height: 1px; position: relative; margin: 0; padding: 0 10px; float: left; }
-@media (max-width: 767px) { .column-5 { width: 100%; float: none; margin: 0; *zoom: 1; }
-  .column-5:after { content: ''; display: table; line-height: 0; clear: both; } }
+.column-5 { width: 100%; float: none; margin: 0; *zoom: 1; }
+.column-5:after { content: ''; display: table; line-height: 0; clear: both; }
+@media (min-width: 480px) { .column-5 { width: 41.66667%; min-height: 1px; position: relative; margin: 0; padding: 0 10px; float: left; } }
 
 .push-5 { margin-left: 41.66667%; }
 
-.column-6 { width: 50%; min-height: 1px; position: relative; margin: 0; padding: 0 10px; float: left; }
-@media (max-width: 767px) { .column-6 { width: 100%; float: none; margin: 0; *zoom: 1; }
-  .column-6:after { content: ''; display: table; line-height: 0; clear: both; } }
+.column-6 { width: 100%; float: none; margin: 0; *zoom: 1; }
+.column-6:after { content: ''; display: table; line-height: 0; clear: both; }
+@media (min-width: 480px) { .column-6 { width: 50%; min-height: 1px; position: relative; margin: 0; padding: 0 10px; float: left; } }
 
 .push-6 { margin-left: 50%; }
 
-.column-7 { width: 58.33333%; min-height: 1px; position: relative; margin: 0; padding: 0 10px; float: left; }
-@media (max-width: 767px) { .column-7 { width: 100%; float: none; margin: 0; *zoom: 1; }
-  .column-7:after { content: ''; display: table; line-height: 0; clear: both; } }
+.column-7 { width: 100%; float: none; margin: 0; *zoom: 1; }
+.column-7:after { content: ''; display: table; line-height: 0; clear: both; }
+@media (min-width: 480px) { .column-7 { width: 58.33333%; min-height: 1px; position: relative; margin: 0; padding: 0 10px; float: left; } }
 
 .push-7 { margin-left: 58.33333%; }
 
-.column-8 { width: 66.66667%; min-height: 1px; position: relative; margin: 0; padding: 0 10px; float: left; }
-@media (max-width: 767px) { .column-8 { width: 100%; float: none; margin: 0; *zoom: 1; }
-  .column-8:after { content: ''; display: table; line-height: 0; clear: both; } }
+.column-8 { width: 100%; float: none; margin: 0; *zoom: 1; }
+.column-8:after { content: ''; display: table; line-height: 0; clear: both; }
+@media (min-width: 480px) { .column-8 { width: 66.66667%; min-height: 1px; position: relative; margin: 0; padding: 0 10px; float: left; } }
 
 .push-8 { margin-left: 66.66667%; }
 
-.column-9 { width: 75%; min-height: 1px; position: relative; margin: 0; padding: 0 10px; float: left; }
-@media (max-width: 767px) { .column-9 { width: 100%; float: none; margin: 0; *zoom: 1; }
-  .column-9:after { content: ''; display: table; line-height: 0; clear: both; } }
+.column-9 { width: 100%; float: none; margin: 0; *zoom: 1; }
+.column-9:after { content: ''; display: table; line-height: 0; clear: both; }
+@media (min-width: 480px) { .column-9 { width: 75%; min-height: 1px; position: relative; margin: 0; padding: 0 10px; float: left; } }
 
 .push-9 { margin-left: 75%; }
 
-.column-10 { width: 83.33333%; min-height: 1px; position: relative; margin: 0; padding: 0 10px; float: left; }
-@media (max-width: 767px) { .column-10 { width: 100%; float: none; margin: 0; *zoom: 1; }
-  .column-10:after { content: ''; display: table; line-height: 0; clear: both; } }
+.column-10 { width: 100%; float: none; margin: 0; *zoom: 1; }
+.column-10:after { content: ''; display: table; line-height: 0; clear: both; }
+@media (min-width: 480px) { .column-10 { width: 83.33333%; min-height: 1px; position: relative; margin: 0; padding: 0 10px; float: left; } }
 
 .push-10 { margin-left: 83.33333%; }
 
-.column-11 { width: 91.66667%; min-height: 1px; position: relative; margin: 0; padding: 0 10px; float: left; }
-@media (max-width: 767px) { .column-11 { width: 100%; float: none; margin: 0; *zoom: 1; }
-  .column-11:after { content: ''; display: table; line-height: 0; clear: both; } }
+.column-11 { width: 100%; float: none; margin: 0; *zoom: 1; }
+.column-11:after { content: ''; display: table; line-height: 0; clear: both; }
+@media (min-width: 480px) { .column-11 { width: 91.66667%; min-height: 1px; position: relative; margin: 0; padding: 0 10px; float: left; } }
 
 .push-11 { margin-left: 91.66667%; }
 
-.column-12 { width: 100%; min-height: 1px; position: relative; margin: 0; padding: 0 10px; float: left; }
-@media (max-width: 767px) { .column-12 { width: 100%; float: none; margin: 0; *zoom: 1; }
-  .column-12:after { content: ''; display: table; line-height: 0; clear: both; } }
+.column-12 { width: 100%; float: none; margin: 0; *zoom: 1; }
+.column-12:after { content: ''; display: table; line-height: 0; clear: both; }
+@media (min-width: 480px) { .column-12 { width: 100%; min-height: 1px; position: relative; margin: 0; padding: 0 10px; float: left; } }
 
 .push-12 { margin-left: 100%; }
 

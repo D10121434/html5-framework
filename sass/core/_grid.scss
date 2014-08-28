@@ -19,22 +19,22 @@ $grid-push-prefix: 'push-' !default;
 }
 
 @mixin column ($width: $grid-columns) {
-	width: (100% / $grid-columns) * $width;
-	min-height: 1px;
-	position: relative;
+	width: 100%;
+	float: none;
 	margin: 0;
-	padding: 0 $grid-gutter/2;
-	@if $width == 1 {
-    padding: 0;
-    @include clearfix();
-  } @else {
-  	float: left;
-  }
-  @include respond($tablet-portrait) {
-  	width: 100%;
-  	float: none;
-  	margin: 0;
-  	@include clearfix();
+	@include clearfix();
+  @include respond($phone) {
+  	width: (100% / $grid-columns) * $width;
+		min-height: 1px;
+		position: relative;
+		margin: 0;
+		padding: 0 $grid-gutter/2;
+		@if $width == 1 {
+	    padding: 0;
+	    @include clearfix();
+	  } @else {
+	  	float: left;
+	  }
   }
 }
 

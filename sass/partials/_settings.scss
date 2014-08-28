@@ -16,7 +16,7 @@ $grid-row-prefix: 'row';
 $grid-push-prefix: 'push-';
 
 // Responsive sizes
-$phone: '(max-width: 480px)';
-$tablet-portrait: '(max-width: 767px)';
-$tablet-landscape: '(min-width: 768px) and (max-width: 1023px)';
-$desktop: '(min-width: 1024px)';
+$phone: '(min-width: 480px)';
+$tablet: '(min-width: 768px)';
+$laptop: '(min-width: 960px)';
+$desktop: '(min-width: 1200px)';
